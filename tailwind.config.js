@@ -178,9 +178,6 @@ module.exports = {
 		},
 	},
 	plugins: [
-		// https://github.com/tailwindlabs/tailwindcss-custom-forms
-		require('@tailwindcss/custom-forms'),
-
 		plugin(function ({ addUtilities }) {
 			const textIndent = () => {
 				let textIndent = new Object()
